@@ -1,6 +1,6 @@
 .header {
   background: linear-gradient(90deg, #e63946, #f77f00); /* Deep red to strong orange */
-  padding: 1rem 2rem;
+  padding: 0.5rem 1.5rem;
   color: white;
   position: sticky;
   top: 0;
@@ -15,7 +15,7 @@
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 800;
   letter-spacing: 1px;
   cursor: pointer;
@@ -33,7 +33,7 @@
 }
 
 .nav-links a {
-  padding: 0.5rem;
+  padding: 0.3rem;
 
   text-decoration: none;
   color: #fff3e0; /* Soft cream for contrast */
