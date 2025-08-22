@@ -1,0 +1,36 @@
+/* Gallery.css */
+.gallery-section {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.gallery-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.gallery-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-image {
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,9 @@
+/* Footer.css */
+.footer {
+  background-color: #dc2626; /* red-600 */
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: 2.5rem;
+  font-size: 1rem;
+}

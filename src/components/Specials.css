@@ -1,0 +1,56 @@
+/* Specials.css */
+.specials-section {
+  padding: 4rem 1rem;
+  background-color: #fef2f2; /* red-50 */
+  text-align: center;
+}
+
+.specials-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.specials-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+.specials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.specials-item {
+  background-color: white;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.specials-item:hover {
+  transform: translateY(-5px);
+}
+
+.specials-image {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+}
+
+.specials-details {
+  padding: 1rem;
+}
+
+.specials-name {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.specials-price {
+  color: #dc2626; /* red-600 */
+  font-weight: 600;
+}

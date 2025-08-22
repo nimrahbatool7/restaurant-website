@@ -1,0 +1,48 @@
+/* About.css */
+.about-section {
+  padding: 4rem 1rem;
+  background-color: #f9fafb; /* soft gray */
+  font-family: 'Poppins', sans-serif; /* modern & professional font */
+}
+
+.about-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.about-image {
+  width: 100%;
+  border-radius: 0.75rem;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-image:hover {
+  transform: scale(1.03);
+}
+
+.about-content h3 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  color: #1e293b; /* slate-800 */
+  letter-spacing: 1px;
+  border-left: 6px solid #ef4444; /* red-500 accent */
+  padding-left: 12px;
+}
+
+.about-content p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+  font-size: 1.125rem; /* slightly larger text */
+  color: #334155; /* slate-700 */
+}
+
+.about-content p strong {
+  color: #ef4444; /* highlight key words in red */
+  font-weight: 700;
+}
